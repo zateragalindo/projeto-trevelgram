@@ -18,11 +18,32 @@
   --text-lg: bold 32px/125% var(--font-family);
   --text: normal 16px/150% var(--font-family)
   --text-md: normal 14px/170% var(--font-family);
-  --text-sm: normal 12px/170% var(var(--font-family))
+  --text-sm: normal 12px/170% var(--font-family);
 
 }
 
 body {
   color: var(--text-color-secondary);
   background-color: var(--background-color);
+  font-family: var(--font-family);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: var(--brand-color);
+  text-decoration: underline;
+}
+
+.container {
+  padding-inline: 32px;
+  max-width: 1280px;
+  margin-inline: auto;
+}
+
+.bg-surface-color {
+  background-color: var(--surface-color);
 }
