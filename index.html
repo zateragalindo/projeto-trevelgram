@@ -30,8 +30,8 @@
               />
             </a>
           </li>
-          <li><a href="#">Explorar</a></li>
-          <li><a href="#">Minhas viagens</a></li>
+          <li class="desktop-only"><a href="#">Explorar</a></li>
+          <li class="desktop-only"><a href="#">Minhas viagens</a></li>
           <li>
             <a href="#">
               <img
@@ -44,9 +44,10 @@
       </nav>
 
       <header>
-        <div class="container">
+        <div class="container flex">
+          <img src="./assets/profile-pic.png" alt="Imagem de perfil"/>
           <div id="profile">
-            <img src="./assets/profile-pic.png" alt="Imagem de perfil" />
+            <img src="./assets/profile-pic.png" alt="Imagem de perfil"  class="display-none"/>
             <div>
               <h1>Isabela Torres</h1>
               <p>
@@ -91,7 +92,7 @@
       <img src="./assets/images/Image-12.png" alt="Imagens de lugares para se visitar">
     </main>
 
-    <footer class="container">
+    <footer class="container grid">
       <span>Travelgram &copy; 2024</span>
       <span>Termos de uso</span>
       <span>Políticas de privacidade</span>

@@ -7,7 +7,7 @@ header {
 header .container {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
 }
 
 #profile {
@@ -46,4 +46,14 @@ header .container {
   display: flex;
   align-items: center;
   gap: 8px;
+}
+
+@media (width >= 80em) {
+  .desktop-only {
+    display: block;
+  }
+
+  .flex {
+    flex-direction: row;
+  }
 }

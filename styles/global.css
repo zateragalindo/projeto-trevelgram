@@ -47,3 +47,18 @@ a:hover {
 .bg-surface-color {
   background-color: var(--surface-color);
 }
+
+.desktop-only {
+  display: none;
+}
+
+.display-none {
+  display: none;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+

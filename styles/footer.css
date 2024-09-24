@@ -10,4 +10,29 @@ footer {
 
 footer span:nth-child(1) {
   margin-right: auto;
+  grid-area: A;
+  grid-column: 2/4;
+}
+
+footer span:nth-child(2) {
+  grid-area: 1fr;
+  grid-area: B;
+}
+
+footer span:nth-child(3) {
+  grid-area: 1fr;
+  grid-area: C;
+}
+
+.grid {
+  display: grid;
+  grid-template-areas: 
+  "A A A A"
+  "B B C C";
+}
+
+@media (width >= 80em) {
+  .grid {
+    display: flex;
+  }
 }

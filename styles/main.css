@@ -5,6 +5,7 @@ main {
   flex-wrap: wrap;
   gap: 24px;
   padding-block: 24px;
+  justify-content: center;
 }
 
 main img {
